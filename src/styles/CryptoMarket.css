@@ -1,0 +1,38 @@
+.crypto-market {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.crypto-market h2 {
+  font-size: 1.25rem;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.crypto-item:last-child {
+  border-bottom: none;
+}
+
+.crypto-item span {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.crypto-item span:nth-child(3) {
+  color: #e53935;
+  /* Red for negative changes */
+}
+
+.crypto-item span:nth-child(3):nth-of-type(even) {
+  color: #43a047;
+  /* Green for positive changes */
+}

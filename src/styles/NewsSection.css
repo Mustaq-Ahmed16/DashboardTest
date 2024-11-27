@@ -1,0 +1,30 @@
+.news-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.news-section h2 {
+  font-size: 1.25rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.news-section p {
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.news-section a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0056ff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.news-section a:hover {
+  text-decoration: underline;
+}

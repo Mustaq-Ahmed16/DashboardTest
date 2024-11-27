@@ -1,0 +1,13 @@
+.dashboard {
+  display: inline-flex;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
